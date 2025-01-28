@@ -1,0 +1,234 @@
+body {
+    background-color: #000000;
+}
+
+.container {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 12px;
+    width: 300px;
+}
+
+/* NAV - cor de fundo clara e alinhamento em coluna */
+.navegacao {
+    background-color: #121212;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Imagem */
+.navegacao .logo img {
+    padding: 5px 0px 0px 5px;
+    width: 100px;
+}
+
+/* Margem da lista */
+.navegacao ul {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+/* Espaçmento em baixo das ancoras */
+.navegacao ul li {
+    margin-bottom: 10px;
+}
+
+/*Estilos nas ancoras Home e Buscar*/
+.navegacao ul li a {
+    color: #b3b3b3;
+    font-family: "DM Sans", sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.biblioteca {
+    background-color: #121212;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 4px 15px;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.biblioteca .biblioteca__conteudo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.biblioteca .biblioteca__button {
+    display: flex;
+    margin-right: 10px;
+    color: #b3b3b3;
+    background-color: transparent;
+    border: 0px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 20px 10px;
+}
+
+.biblioteca .biblioteca__conteudo .fa {
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 300;
+    padding-right: 8px;
+}
+
+.biblioteca .biblioteca__conteudo .fa-plus {
+    margin: 20px 0;
+}
+
+.section-playlist {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #302e2e;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px 0;
+    padding: 16px 20px;
+    border-radius: 10px;
+}
+
+.section-playlist .section-playlist__conteudo {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-playlist__conteudo .text{
+    font-family: "DM Sans", sans-serif;
+    padding-bottom: 8px;
+    color: #fff;
+}
+
+.section-playlist__conteudo .titulo {
+    font-weight: 700;
+}
+
+.section-playlist__conteudo .subtitulo {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.section-playlist__conteudo .section-playlist__button {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    color: #000000;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    text-decoration: none;
+    text-transform: none;
+    padding: 5px;
+    margin-top: 12px;
+    border: 0px;
+    width: 100px;
+}
+
+.biblioteca .cookies {
+    margin: 25px 20px;
+}
+
+.biblioteca .cookies a {
+    color: #b3b3b3;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.biblioteca .cookies a:hover {
+    color: #878787;
+    text-decoration: underline;
+}
+
+.biblioteca .idiomas .idiomas__button {
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid #878787;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    width: 180px;
+    margin: 10px;
+    padding: 6px;
+    border-radius: 20px;
+}
+
+.footer {
+    font-family: "DM Sans", sans-serif;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+    background: linear-gradient(to right, #ff007f, #007bff);
+    padding: 20px;
+}
+
+.footer-conteudo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-texto p{
+    font-weight: 500;
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.footer-conteudo button {
+    padding: 5px 25px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.section-genero {
+    background-color: #302e2e;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.section-genero ul {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.section-genero ul li {
+    padding: 3px 0px;
+}
+
+.section-genero ul li a {
+    text-decoration: none;
+    text-transform: none;
+    color: #fff;
+}
+
+.section-genero ul li a:hover {
+    text-decoration: underline;
+}
+
