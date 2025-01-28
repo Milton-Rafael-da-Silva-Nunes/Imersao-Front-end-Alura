@@ -45,6 +45,34 @@ body {
     font-size: 14px;
 }
 
+.button-login {
+    position: fixed; /* Mantém o botão fixo mesmo ao rolar a página */
+    top: 10px; /* Define a distância do topo */
+    right: 10px; /* Define a distância da direita */
+    z-index: 100; /* Garante que ele fique acima de outros elementos */
+}
+
+.button-login button {
+    padding: 10px 25px;
+    background-color: #fff;
+    color: #000000;
+    border: none;
+    text-decoration: none;
+    text-transform: none;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "DM Sans", sans-serif;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.button-login button:hover {
+    background-color: #1DB954;
+    color: #fff;
+    text-decoration: underline;
+}
+
 .biblioteca {
     background-color: #121212;
     border-radius: 10px;
