@@ -1,0 +1,8 @@
+:root{
+    /* FONTE */
+    --font-dm-sans: "DM Sans", sans-serif;
+
+    /* CORES */
+    --bg-icon: #131313;
+    --bg-button-color: rgba(0, 0, 07);
+}

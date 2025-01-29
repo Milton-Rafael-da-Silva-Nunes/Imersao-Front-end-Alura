@@ -7,7 +7,10 @@
     <title>Imersão Alura</title>
 
     <link rel="stylesheet" href="src/styles/reset.css">
+    <link rel="stylesheet" href="src/styles/vars.css">
     <link rel="stylesheet" href="src/styles/sidebar-footer.css">
+    <link rel="stylesheet" href="src/styles/main-content.css">
+    <link rel="stylesheet" href="src/styles/card-container.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
         integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
@@ -40,8 +43,8 @@
             </ul>
         </nav>
 
-        <div class="biblioteca">
 
+        <div class="biblioteca">
             <div class="biblioteca__conteudo">
                 <button class="biblioteca__button">
                     <span class="fa fas fa-book"></span>
@@ -68,6 +71,7 @@
                     <span>Português do Brasil</span>
                 </button>
             </div>
+
 
             <section class="section-genero">
                 <div class="section-genero__conteudo">
@@ -105,44 +109,53 @@
                     </ul>
                 </div>
             </section>
-
         </div>
+    </div>
 
-        <footer class="footer">
-            <div class="footer-conteudo">
-                <div class="footer-texto">
-                    <p>TESTAR O PREMIM DE GRAÇA</p>
-                    <p>Inscreva-se para curtir músicas ilimitadas e podcasts só com alguns anúncios. Não precisa de
-                        cartão de crédito.</p>
-                </div>
-                <button>Inscreva-se grátis</button>
-            </div>
-        </footer>
 
-        <div class="pesquisa">
-            <nav>
-                <div class="pesquisa-conteudo">
+    <main>
+        <div class="main-container">
+            <nav class="header__navegacao">
+                <div class="navegacao">
                     <button class="button-left">
-                        <img src="./src/assets/icons/small-left.png"/>
+                        <img src="./src/assets/icons/small-left.png" alt="Seta Esquerda" />
                     </button>
                     <button class="button-rigth">
-                        <img src="./src/assets/icons/small-right.png"/>
+                        <img src="./src/assets/icons/small-right.png" alt="Seta Direita" />
                     </button>
-                    <div class="pesquisa-conteudo__input">
-                        <button class="button-search">
-                            <img src="./src/assets/icons/search.png"/>
-                            <input type="search" placeholder="O que você quer ouvir?" class="campo-pesquisa">
-                        </button>
-                    </div>
+                </div>
+
+                <div class="header-search">
+                    <img src="./src/assets/icons/search.png" alt="" />
+                    <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?" />
+                </div>
+
+                <div class="header__login">
+                    <button class="subscribe">Inscreva-se</button>
+                    <button class="login">Entrar</button>
                 </div>
             </nav>
-        </div>
 
-        <div class="button-login">
-            <button>Login</button>
+            <div class="card-container">
+                <script src="src/script/script.js"></script>
+                <h1 id="saudacao">Saudação ao cliente</h1>
+                <h2>Navegar por todas as seções</h2>
+            </div>
         </div>
+    </main>
 
-    </div>
+
+
+    <footer class="footer">
+        <div class="footer-conteudo">
+            <div class="footer-texto">
+                <p>TESTAR O PREMIM DE GRAÇA</p>
+                <p>Inscreva-se para curtir músicas ilimitadas e podcasts só com alguns anúncios. Não precisa de
+                    cartão de crédito.</p>
+            </div>
+            <button>Inscreva-se grátis</button>
+        </div>
+    </footer>
 </body>
 
 </html>

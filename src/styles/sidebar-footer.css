@@ -1,5 +1,6 @@
 body {
     background-color: #000000;
+    font-family: var(-font-dm-sans);
 }
 
 .container {
@@ -42,7 +43,6 @@ body {
 /*Estilos nas ancoras Home e Buscar*/
 .navegacao ul li a {
     color: #b3b3b3;
-    font-family: "DM Sans", sans-serif;
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
@@ -74,7 +74,6 @@ body {
     border: 0px;
     font-size: 14px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-align: center;
     text-decoration: none;
     text-transform: none;
@@ -112,7 +111,6 @@ body {
 }
 
 .section-playlist__conteudo .text{
-    font-family: "DM Sans", sans-serif;
     padding-bottom: 8px;
     color: #fff;
 }
@@ -134,7 +132,6 @@ body {
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-decoration: none;
     text-transform: none;
     padding: 5px;
@@ -177,7 +174,6 @@ body {
     border-radius: 10px;
     margin-top: 20px;
     margin-bottom: 5px;
-    font-family: "DM Sans", sans-serif;
     font-size: 15px;
     font-weight: 400;
     cursor: pointer;
@@ -203,96 +199,7 @@ body {
     text-decoration: underline;
 }
 
-.pesquisa {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    z-index: 100;
-}
-
-.pesquisa-conteudo {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-family: "DM Sans", sans-serif;
-}
-
-.pesquisa-conteudo button {
-    background-color: transparent;
-    text-decoration: none;
-    text-transform: none;
-    border: none;
-    cursor: pointer;
-}
-
-.pesquisa-conteudo button img {
-    width: 24px;
-    height: 24px;
-}
-
-.pesquisa-conteudo__input {
-    display: flex;
-    align-items: center;
-    background-color: #121212;
-    border-radius: 20px;
-    padding: 5px 10px;
-}
-
-.pesquisa-conteudo__input input {
-    background-color: transparent;
-    border: 1px solid #b3b3b3;
-    text-decoration: none;
-    text-transform: none;
-    border-radius: 20px;
-    padding: 6px 30px;
-    text-align: center;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 600;
-}
-
-.pesquisa-conteudo__input .button-search {
-    display: flex;
-    align-items: center;
-    padding: 0;
-    gap: 10px;
-}
-
-.button-login { 
-    position: fixed; /* Mantém o botão fixo mesmo ao rolar a página */
-    top: 10px; /* Define a distância do topo */
-    right: 10px; /* Define a distância da direita */
-    z-index: 100; /* Garante que ele fique acima de outros elementos */
-}
-
-.button-login button {
-    padding: 10px 25px;
-    background-color: #fff;
-    color: #000000;
-    border: none;
-    text-decoration: none;
-    text-transform: none;
-    border-radius: 20px;
-    font-size: 14px;
-    font-weight: 600;
-    font-family: "DM Sans", sans-serif;
-    cursor: pointer;
-    transition: 0.2s;
-}
-
-.button-login button:hover {
-    background-color: #1DB954;
-    color: #fff;
-    text-decoration: underline;
-}
-
 .footer {
-    font-family: "DM Sans", sans-serif;
     position: fixed;
     bottom: 0;
     left: 0;
