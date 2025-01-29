@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imersão Alura</title>
 
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="src/styles/reset.css">
+    <link rel="stylesheet" href="src/styles/sidebar-footer.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
         integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
@@ -20,7 +20,7 @@
         <nav class="navegacao">
             <div class="logo">
                 <a href="">
-                    <img src="./assets/icons/logo-spotify.png" alt="Logo Spotify" />
+                    <img src="./src/assets/icons/logo-spotify.png" alt="Logo Spotify" />
                 </a>
             </div>
 
@@ -119,10 +119,29 @@
             </div>
         </footer>
 
+        <div class="pesquisa">
+            <nav>
+                <div class="pesquisa-conteudo">
+                    <button class="button-left">
+                        <img src="./src/assets/icons/small-left.png"/>
+                    </button>
+                    <button class="button-rigth">
+                        <img src="./src/assets/icons/small-right.png"/>
+                    </button>
+                    <div class="pesquisa-conteudo__input">
+                        <button class="button-search">
+                            <img src="./src/assets/icons/search.png"/>
+                            <input type="search" placeholder="O que você quer ouvir?" class="campo-pesquisa">
+                        </button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
         <div class="button-login">
             <button>Login</button>
         </div>
-        
+
     </div>
 </body>
 
