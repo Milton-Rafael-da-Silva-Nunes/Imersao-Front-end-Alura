@@ -109,3 +109,8 @@
     font-size: 18px;
     text-align: center;
 }
+
+.header__login .login:hover {
+    background-color: #1db954;
+    color: #fff;
+}

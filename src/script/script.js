@@ -10,7 +10,18 @@ function requestApi(searchTerm) {
     .then((result) => displayResultado(result));
 }
 
+function displayResultado(result) {
+    resultPlaylist.classList.add('hidden');
+    const artistaNome = document.getElementById('artist-name');
+    const artistaImg = document.getElementById('artist-img');
 
+    result.forEach(element => {
+        artistaNome.innerText = element.name;
+        artistaImg.src = element.urlImg;
+    });
+
+    resultArtist.classList.remove('hidden');
+}
 
 document.addEventListener('input', function() {
     const searchTerm = searchInput.value.toLowerCase();
@@ -20,4 +31,6 @@ document.addEventListener('input', function() {
         resultArtist.classList.remove();
         return;
     }
+
+    requestApi(searchTerm);
 });
